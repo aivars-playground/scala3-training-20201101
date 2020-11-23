@@ -1,1 +1,1 @@
-testing
+## sbt project compiled with Dotty
