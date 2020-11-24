@@ -17,3 +17,5 @@
 //https://dotty.epfl.ch/docs/reference/new-types/match-types.html
 @main def type_matchtype_demo() = newtypes.MatchTypes()
 
+//https://dotty.epfl.ch/docs/reference/new-types/dependent-function-types.html
+@main def type_dependent_f_type_demo() = newtypes.DependentFunctionType()
