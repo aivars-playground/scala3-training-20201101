@@ -1,4 +1,4 @@
-package newtypes.intersect
+package newtypes
 
 trait A {
   def doA: Int
@@ -37,7 +37,7 @@ class C(val doA: Int, val doB: String) extends A with B with Resettable with Gro
   override def toString: String = s"<A:$doA & B:$doB - ch:`${common.mkString(",")}`>"
 }
 
-class IntersectTypeDemo1 {
+class IntersectTypeDemo {
   
   val x: C = new C(1, "first")
   val y: A & B = new C(2, "second")
