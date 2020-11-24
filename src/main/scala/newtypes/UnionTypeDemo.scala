@@ -33,4 +33,6 @@ class UnionTypeDemo {
   doSomething(either)
   
   doSomething(ut2)
+
+  //val typeHint: Any = if (true) ut1 else ut2 //why not Object & Product 
 }
