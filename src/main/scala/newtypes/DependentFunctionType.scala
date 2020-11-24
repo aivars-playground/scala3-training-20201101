@@ -35,7 +35,5 @@ class DependentFunctionType {
   val keyStrkB: Any = extractKey(strk1)
 
   val keyStrkBT: strk1.Key = extractKey(strk1)
-
-  
-  
+  println("===keyStrkBT=>" + keyStrkBT)
 }
