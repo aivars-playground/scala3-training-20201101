@@ -19,3 +19,7 @@
 
 //https://dotty.epfl.ch/docs/reference/new-types/dependent-function-types.html
 @main def type_dependent_f_type_demo() = newtypes.DependentFunctionType()
+
+//https://engineering.zalando.com/posts/2018/10/scala-three-experiment.html
+//https://docs.scala-lang.org/sips/42.type.html
+@main def type_singleton_demo() = newtypes.SingletonDemo()
