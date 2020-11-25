@@ -29,3 +29,6 @@
 
 //https://dotty.epfl.ch/docs/reference/enums/adts.html
 @main def enum_adt_demo() = enums.EnumAlgebraicDataType()
+
+//https://dotty.epfl.ch/docs/reference/contextual/motivation.html
+@main def ca_overview_demo() = contextualabstractions.CaOverview()
