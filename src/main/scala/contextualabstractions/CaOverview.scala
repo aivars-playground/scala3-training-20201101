@@ -3,10 +3,10 @@ package contextualabstractions
 class CaOverview {
 
   case class ValueContainer($value:String)
-  
+
   {
-   
-   //is this conditional implicit value? 
+
+   //is this conditional implicit value?
     implicit def i1(implicit x: ValueContainer): List[String] = List(x.$value)
 
     class Zzzz(implicit in: List[String]) {
@@ -27,7 +27,7 @@ class CaOverview {
     val vc = ValueContainer("abc2")
     class ExpectsImplicit(in: List[String]) {
       println(in.mkString)
-    } 
+    }
     ExpectsImplicit(vc)
   }
 
