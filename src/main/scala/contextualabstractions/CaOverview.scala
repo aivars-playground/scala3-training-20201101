@@ -6,7 +6,7 @@ class CaOverview {
 
   {
 
-   //is this conditional implicit value?
+   //is this conditional implicit value? do I understand this concept?
     implicit def i1(implicit x: ValueContainer): List[String] = List(x.$value)
 
     class Zzzz(implicit in: List[String]) {
