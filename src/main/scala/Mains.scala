@@ -23,3 +23,9 @@
 //https://engineering.zalando.com/posts/2018/10/scala-three-experiment.html
 //https://docs.scala-lang.org/sips/42.type.html
 @main def type_singleton_demo() = newtypes.SingletonDemo()
+
+//https://dotty.epfl.ch/docs/reference/enums/enums.html
+@main def enum_new_demo() = enums.EnumDemo()
+
+//https://dotty.epfl.ch/docs/reference/enums/adts.html
+@main def enum_adt_demo() = enums.EnumAlgebraicDataType()
