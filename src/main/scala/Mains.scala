@@ -32,3 +32,6 @@
 
 //https://dotty.epfl.ch/docs/reference/contextual/motivation.html
 @main def ca_overview_demo() = contextualabstractions.CaOverview()
+
+//https://dotty.epfl.ch/docs/reference/contextual/givens.html
+@main def ca_given_demo() = contextualabstractions.Given()
