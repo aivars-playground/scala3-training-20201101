@@ -58,7 +58,6 @@ class Given {
   given GivenOps.Config = GivenOps.Config("MD5")    //anonymous
   import GivenOps.configurableFoo                   //import named 
   println("abc -> md5 = "+ GivenOps.FooBar())
-
 }
 
 object GivenOps {
