@@ -42,3 +42,6 @@
 //https://dotty.epfl.ch/docs/reference/contextual/extension-methods.html
 @main def ca_ext_methods_demo() = contextualabstractions.ExtensionMethods()
 
+//https://dotty.epfl.ch/docs/reference/contextual/type-classes.html
+@main def ca_typeclasses_demo() = contextualabstractions.TypeClasses()
+

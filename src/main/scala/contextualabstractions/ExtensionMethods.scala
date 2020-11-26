@@ -24,11 +24,9 @@ trait SafeDiv:
       case (Some(d), Some(r)) => Some((d, r))
       case _ => None
 
-
 object CircleOps:
-  extension (c: Circle) : //multiple deffinoitions will follow
+  extension (c: Circle)  //multiple deffinitions will follow
     def circumference: Double = c.radius * math.Pi * 2
-
     def volume: Double = c.radius * c.radius * math.Pi
 
 case class Circle(x: Double, y: Double, radius: Double)
