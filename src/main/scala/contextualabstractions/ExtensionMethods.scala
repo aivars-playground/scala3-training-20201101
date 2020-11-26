@@ -25,13 +25,13 @@ trait SafeDiv:
       case _ => None
 
 
-      case class Circle(x: Double, y: Double, radius: Double)
-
 object CircleOps:
   extension (c: Circle) : //multiple deffinoitions will follow
     def circumference: Double = c.radius * math.Pi * 2
 
     def volume: Double = c.radius * c.radius * math.Pi
+
+case class Circle(x: Double, y: Double, radius: Double)
 
 class ExtensionMethods:
 
