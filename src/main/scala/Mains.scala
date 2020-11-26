@@ -35,3 +35,7 @@
 
 //https://dotty.epfl.ch/docs/reference/contextual/givens.html
 @main def ca_given_demo() = contextualabstractions.Given()
+
+//https://dotty.epfl.ch/docs/reference/contextual/using-clauses.html
+@main def ca_using_demo() = contextualabstractions.UsingClauses()
+
